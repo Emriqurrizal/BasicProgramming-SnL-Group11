@@ -1,6 +1,6 @@
 public class LuckyTile{
     private String[] mystery = {"Move 3 tiles forward", "Move 3 tiles backwards", "Goes to JAIL! (skipped 1 turn)"};
-    private int index = (int)(Math.random()* 4) + 0;
+    private int index = (int)(Math.random()* 3) + 0;
     private int[] luckyTile = new int[7];
 
     public void setLuckyTile(){
